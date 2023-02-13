@@ -4,7 +4,7 @@ import cors from 'cors'
 import TelegramBot from 'node-telegram-bot-api'
 
 
-const token = '5701264991:AAFa6BXjBWI5DR6OZr53OgXYUpsidA5WUEg'
+const token = '6246348383:AAGihyX_oWWuR6b9nERFklXJeJLh18IwKwM'
 export const bot = new TelegramBot(token, {polling: true})
 const SECRET_KEY = 'eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6Im0xcGY4OS0wMCIsInVzZXJfaWQiOiI3OTM4ODY5MTkyNyIsInNlY3JldCI6ImE3YTdiZmY4Yzc5OTA5ZjhjZDVmYjAxMGE1OWNlOGQ5MmM3ZGNhOTJkODA0OWRkM2ZhOTY0N2QwNzZiOTI3ZDgifX0=';
 const qiwiApi = new QiwiBillPaymentsAPI(SECRET_KEY);
