@@ -135,7 +135,7 @@ bot.on('callback_query', async function onCallbackQuery(callbackQuery) {
         bot.deleteMessage(msg.chat.id, msg.message_id)
         bot.sendMessage(msg.chat.id, '💚 *Анкеты наших девочек*\n' +
             '\n' +
-            '👋 Свободны сейчас: *15*',
+            '👋 Свободны сейчас: *13*',
             {
                 chat_id: msg.chat.id,
                 message_id: msg.message_id,
