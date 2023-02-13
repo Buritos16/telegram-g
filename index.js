@@ -4,7 +4,7 @@ import cors from 'cors'
 import TelegramBot from 'node-telegram-bot-api'
 
 
-const token = '6080178253:AAEP0cA7ZzNjL0uY76k3ePu7V9bURSRetRw'
+const token = '5701264991:AAFa6BXjBWI5DR6OZr53OgXYUpsidA5WUEg'
 export const bot = new TelegramBot(token, {polling: true})
 const SECRET_KEY = 'eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6Im0xcGY4OS0wMCIsInVzZXJfaWQiOiI3OTM4ODY5MTkyNyIsInNlY3JldCI6ImE3YTdiZmY4Yzc5OTA5ZjhjZDVmYjAxMGE1OWNlOGQ5MmM3ZGNhOTJkODA0OWRkM2ZhOTY0N2QwNzZiOTI3ZDgifX0=';
 const qiwiApi = new QiwiBillPaymentsAPI(SECRET_KEY);
@@ -167,7 +167,7 @@ bot.on('callback_query', async function onCallbackQuery(callbackQuery) {
 
     if (action === 'main') {
         bot.deleteMessage(msg.chat.id, msg.message_id)
-        bot.sendMessage(msg.chat.id, `*${msg.chat.first_name}*, добро пожаловать в *NightBatterfliesRobot* 💚
+        bot.sendMessage(msg.chat.id, `*${msg.chat.first_name}*, добро пожаловать в *Deluxe Girls* 💚
     
 У нас вы можете найти лучших девочек для интимных встреч.
 
