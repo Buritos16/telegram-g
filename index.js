@@ -152,9 +152,9 @@ bot.on('callback_query', async function onCallbackQuery(callbackQuery) {
                         [{text: 'Елена 23 Лет', callback_data: 'Elena'}],
                         [{text: 'Екатерина 22 Года', callback_data: 'Katya'}],
                         [{text: 'Юля 21 Год', callback_data: 'Yulia'}],
-                        [{text: 'София 21 Год', callback_data: 'Vika'}],
-                        [{text: 'Анджелика 24 Года', callback_data: 'Sofa'}],
-                        [{text: 'Вернуться ↩️', callback_data: 'Andgelika'}],
+                        [{text: 'София 21 Год', callback_data: 'Sofa'}],
+                        [{text: 'Анджелика 24 Года', callback_data: 'Andgelika'}],
+                        [{text: 'Вернуться ↩️', callback_data: 'main'}],
                     ]
                 },
                 parse_mode: 'Markdown'
